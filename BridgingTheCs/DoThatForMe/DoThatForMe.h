@@ -10,8 +10,8 @@ namespace Spatial {
         bool PointIsInside(float x, float y);
 
     private:
-        float x, y;
-        float width, height;
+        float _x, _y;
+        float _width, _height;
     };
 }
 

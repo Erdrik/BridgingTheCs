@@ -21,6 +21,7 @@ namespace ShowMeSomething.CPPWrapper
         public static extern void SetDimensions(IntPtr rectangle, float width, float height);
 
         [DllImport("TheBridge.dll", CallingConvention = CallingConvention.Cdecl)]
+        [return:MarshalAs(UnmanagedType.I1)]
         public static extern bool PointIsInside(IntPtr rectangle, float x, float y);
     }
 }

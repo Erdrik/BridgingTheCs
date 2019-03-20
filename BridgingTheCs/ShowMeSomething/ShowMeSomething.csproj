@@ -89,9 +89,9 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <ProjectReference Include="..\DoThatForMe\DoThatForMe.vcxproj">
-      <Project>{A929AAAC-BD48-45D5-8EDA-7C66A7F4490A}</Project>
-      <Name>DoThatForMe</Name>
+    <ProjectReference Include="..\TheBridge\TheBridge.vcxproj">
+      <Project>{928B7ABB-87D0-4664-827F-B59CE69007F8}</Project>
+      <Name>TheBridge</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <OutputItemType>Content</OutputItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -110,8 +110,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="CPPWrapper\CPPWrapper.cs" />
-    <Compile Include="CPPWrapper\DoThatForMe.cs" />
+    <Compile Include="CPPWrapper\Rectangle.cs" />
+    <Compile Include="CPPWrapper\RectangleBridge.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

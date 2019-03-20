@@ -8,6 +8,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoThatForMe", "DoThatForMe\DoThatForMe.vcxproj", "{A929AAAC-BD48-45D5-8EDA-7C66A7F4490A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TheBridge", "TheBridge\TheBridge.vcxproj", "{928B7ABB-87D0-4664-827F-B59CE69007F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A929AAAC-BD48-45D5-8EDA-7C66A7F4490A} = {A929AAAC-BD48-45D5-8EDA-7C66A7F4490A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

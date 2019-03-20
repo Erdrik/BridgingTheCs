@@ -121,6 +121,11 @@
   <ItemGroup>
     <ClCompile Include="TheBridge.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DoThatForMe\DoThatForMe.vcxproj">
+      <Project>{a929aaac-bd48-45d5-8eda-7c66a7f4490a}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

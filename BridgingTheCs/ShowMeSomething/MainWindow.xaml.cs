@@ -13,8 +13,14 @@ namespace ShowMeSomething
         {
             InitializeComponent();
 
-            var exists = DoThatForMe.Exists();
-            Trace.WriteLine($"Exists[{exists}]");
+            var rectangle = new Rectangle();
+            rectangle.SetPosition(5, 5);
+            rectangle.SetDimensions(10, 10);
+
+            var inside = rectangle.PointIsInside(6, 6);
+            var outside = rectangle.PointIsInside(16, 16);
+
+            Trace.WriteLine($"Is Inside[{inside}] Outside[{outside}]");
         }
 
 
