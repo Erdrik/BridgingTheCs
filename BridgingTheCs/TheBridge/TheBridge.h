@@ -13,6 +13,14 @@ extern "C" {
     DECLDIR bool Exists();
 
     DECLDIR Spatial::Rectangle* ConstructorRectangle();
+
+    DECLDIR void DestructorRectangle(Spatial::Rectangle* rectangle);
+
+    DECLDIR void SetPosition(Spatial::Rectangle* rectangle, float x, float y);
+
+    DECLDIR void SetDimensions(Spatial::Rectangle* rectangle, float width, float height);
+
+    DECLDIR bool PointIsInside(Spatial::Rectangle* rectangle, float x, float y);
 }
 
 #endif
