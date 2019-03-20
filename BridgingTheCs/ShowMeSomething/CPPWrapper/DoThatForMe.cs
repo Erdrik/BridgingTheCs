@@ -3,9 +3,9 @@ using System.Runtime.InteropServices;
 
 namespace ShowMeSomething.CPPWrapper
 {
-    public static class DoThatForMe
+    public class Rectangle
     {
-        [DllImport("DoThatForMe.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("TheBridge.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern bool Exists();
     }
 }
