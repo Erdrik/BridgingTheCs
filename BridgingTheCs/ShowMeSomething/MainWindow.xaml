@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:ShowMeSomething"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Canvas Name="ShowMeCanvas">
+        <Rectangle Name="VisualRectangle" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="150" Margin="100,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="300"/>
+        <Rectangle Name="VisualMarker" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="20" Margin="500,192,0,0" Stroke="Black" VerticalAlignment="Top" Width="20"/>
+    </Canvas>
 </Window>
