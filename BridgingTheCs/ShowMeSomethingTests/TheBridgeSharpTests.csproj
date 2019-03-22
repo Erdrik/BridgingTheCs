@@ -8,8 +8,8 @@
     <ProjectGuid>{5E45F126-C838-4185-AF92-8D2519BE6761}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ShowMeSomethingTests</RootNamespace>
-    <AssemblyName>ShowMeSomethingTests</AssemblyName>
+    <RootNamespace>TheBridgeSharpTests</RootNamespace>
+    <AssemblyName>TheBridgeSharpTests</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -92,9 +92,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ShowMeSomething\ShowMeSomething.csproj">
-      <Project>{B269CC3B-F999-4735-A135-348B1287F38A}</Project>
-      <Name>ShowMeSomething</Name>
+    <ProjectReference Include="..\TheBridgeSharp\TheBridgeSharp.csproj">
+      <Project>{85207aef-3161-4838-b84b-19a6f5fbe4bd}</Project>
+      <Name>TheBridgeSharp</Name>
     </ProjectReference>
     <ProjectReference Include="..\TheBridge\TheBridge.vcxproj">
       <Project>{928B7ABB-87D0-4664-827F-B59CE69007F8}</Project>

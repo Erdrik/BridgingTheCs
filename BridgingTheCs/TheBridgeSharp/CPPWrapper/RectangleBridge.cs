@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace ShowMeSomething.CPPWrapper
+namespace TheBridgeSharp.CPPWrapper
 {
     public class RectangleBridge
     {
